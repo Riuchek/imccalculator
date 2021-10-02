@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let joao = {
+            nome: "João",
+            sobrenome : "marinho",
+            idade : 17
+        }
+        let Nicoly = {
+            nome: "Nicoly",
+            sobrenome : "Mendes",
+            idade : 25
+        }
+        let Anna = {
+            nome: "Anna",
+            sobrenome : "Souza",
+            idade : 18
+        }
+        console.log(joao, Anna ,Nicoly);
+       console.log(`${Anna.nome} ${Anna.idade}`);
+       console.log(`${Nicoly.nome} ${Nicoly.idade}`);
+       console.log(`${joao.nome} ${joao.idade}`);
+
+
+       // array lindo kawai sem virus
+        let listaPessoas = [joao,Anna,Nicoly]
+        console.log(listaPessoas);
+        for (let i = 0; i<listaPessoas.length; i++) {
+            console.log(listaPessoas[i].nome,listaPessoas[i].sobrenome);
+            
+        }
+    </script>
+</body>
+</html>
